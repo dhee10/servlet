@@ -12,6 +12,7 @@ import java.io.IOException;
 
 @WebServlet(name="helloServlet", urlPatterns = "/hello")
 public class HelloServlet extends HttpServlet {
+    // protected 단축키 ctrl+o
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
